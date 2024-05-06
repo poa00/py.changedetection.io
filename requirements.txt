@@ -25,7 +25,7 @@ paho-mqtt
 
 # Pinned version of cryptography otherwise
 # ERROR: Could not build wheels for cryptography which use PEP 517 and cannot be installed directly
-cryptography ~= 3.4
+cryptography ~= 42.0
 
 # Used for CSS filtering
 bs4
@@ -39,6 +39,6 @@ selenium ~= 4.1.0
 # https://stackoverflow.com/questions/71652965/importerror-cannot-import-name-safe-str-cmp-from-werkzeug-security/71653849#71653849
 # ImportError: cannot import name 'safe_str_cmp' from 'werkzeug.security'
 # need to revisit flask login versions
-werkzeug ~= 2.0.0
+werkzeug ~= 3.0.3
 
 # playwright is installed at Dockerfile build time because it's not available on all platforms
